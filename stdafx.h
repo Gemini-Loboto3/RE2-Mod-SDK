@@ -17,5 +17,9 @@
 typedef unsigned char u8;
 typedef unsigned short u16;
 typedef unsigned int u32;
+typedef signed char s8;
+typedef signed short s16;
+typedef signed int s32;
 
 #define EXE_DIFF		0x400000
+#define NAKED			__declspec(naked)

@@ -1,0 +1,118 @@
+﻿<Strings>
+    <Text>Will you take the\n{color 1}{string 0}{color 0}?\n{p}{p}{p}{p}{p}{p}{branch 128}</Text>
+    <Text>You can't carry any\nmore items.</Text>
+    <Text>It's already\nfully loaded.</Text>
+    <Text>You can't combine\nthese items.</Text>
+    <Text>You need two item \nspaces to obtain \nthis item.</Text>
+    <Text>These bullets can't\nbe used by\nthemselves.</Text>
+    <Text>You've taken the\n{color 1}{string 0}{color 0}.</Text>
+    <Text>You don't need to\nuse this right now.</Text>
+    <Text>You need more\ninventory space to\nhold this item.</Text>
+    <Text>UNUSED</Text>
+    <Text>The {color 1}{string 0}{color 0}\nhas been filed.</Text>
+    <Text>Will you mix \nthe herb?\n{p}{p}{p}{p}{p}{p}{branch 128}</Text>
+    <Text>UNUSED</Text>
+    <Text>UNUSED</Text>
+    <Text>UNUSED</Text>
+    <Text>UNUSED</Text>
+    <Text>\n</Text>
+    <Text>A combat knife.\nIt could come in\nhandy...</Text>
+    <Text>H&amp;K VP70.\nManufactured by\nH&amp;K, Germany.{clear 0}It uses 9mm\nparabellum rounds.</Text>
+    <Text>Browning HP.\nManufactured by\nFN, Belgium.{clear 0}It uses 9mm\nparabellum rounds.</Text>
+    <Text>H&amp;K VP70 burst.\nVP70 with a stock\nholster.{clear 0}Capable of firing\n3 round auto\nbursts.</Text>
+    <Text>Desert Eagle 50A.E.\nA high caliber\nmagnum pistol.{clear 0}It uses powerful\nDOT50A.E rounds.\nBy IMI, Israel.</Text>
+    <Text>D.E.50A.E. 10 inch\n10 inch barrel is\nput on to D.E.50A.E.\n{clear 0}it can fire DOT50A.E.\nrounds more \npowerfully.</Text>
+    <Text>Remington M1100-P.\nIt uses 12 gauge\nshells.{clear 0}It is a smaller\nversion of the \nM1100 with a cut.</Text>
+    <Text>Remington M1100.\nM1100 full size\nsemi-automatic.{clear 0}The longer barrel\nresults in more\nconcentrated blasts.</Text>
+    <Text>M79 Grenade\nLauncher. Various\nrounds can be used.{clear 0}The cut stock causes\na greater recoil.\nMade in the USA.</Text>
+    <Text>M79 Grenade\nLauncher. Various\nrounds can be used.{clear 0}The cut stock causes\na greater recoil.\nMade in the USA.</Text>
+    <Text>M79 Grenade\nLauncher. Various\nrounds can be used.{clear 0}The cut stock causes\na greater recoil.\nMade in the USA.</Text>
+    <Text>A powerful bow gun\nprimarily used to\nhunt large game.</Text>
+    <Text>Colt S.A.A.\nArtillery model.\n{clear 0}Used by cowboys\nin the Wild West.\nDesigned for a\n{clear 0}quick draw.</Text>
+    <Text>High voltage gun to\nrepel experimental\nanimals.{clear 0}It uses Spark Shot\nrounds and has a\nrange of 10 feet.</Text>
+    <Text>MAC11. Manufactured\nby Military\nArmament CORP.{clear 0}It uses DOT380\nrounds.</Text>
+    <Text>Chemical fuel flame-\nthrower made by\nUmbrella Inc.{clear 0}The fuel is fed\nfrom a small\ncartridge.</Text>
+    <Text>A rocket launcher.{clear 0}One shot from this\nshould kill any\nenemy.</Text>
+    <Text>A powerful weapon\nthat sprays bullets\ninto targets.{clear 0}I should be able to\ndefeat any enemy\nwith this.</Text>
+    <Text>Beretta M92FS\nSemi-automatic\nOne of a thousand\n</Text>
+    <Text>9x19 parabellum\nrounds that can be\nused for either the{clear 0}H&amp;K VP70 or\nBrowning HP.</Text>
+    <Text>Shotgun shells.\nFor the Remington\nM1100 series.</Text>
+    <Text>DOT50A.E. rounds.\nMagnum rounds for\nthe Desert Eagle.</Text>
+    <Text>Chemical fuel that\ncan be used with the\nflamethrower.</Text>
+    <Text>Grenade bearing\nrounds. Used for M79\nGrenade Launcher.</Text>
+    <Text>Grenade Flame\nRounds. For the M79\nGrenade Launcher.</Text>
+    <Text>Grenade Acid Rounds.\nFor the M79 Grenade\nLauncher.</Text>
+    <Text>DOT380 rounds.\nA magazine for the\nIngram M11.</Text>
+    <Text>Spark Shot rounds\nthat house a small\npin used to conduct{clear 0}electric current.</Text>
+    <Text>Compact iron bolts\nthat can be used\nwith a bow gun.</Text>
+    <Text>I can type in my\nprogress with this.</Text>
+    <Text>I can open a\nsimple lock \nwith this.</Text>
+    <Text>They look like\nparts for a gun.</Text>
+    <Text>They look like\nparts for a\nmagnum.</Text>
+    <Text>They look like\nparts for a\nshotgun.</Text>
+    <Text>This will completely\nrestore my vitality.</Text>
+    <Text>A high-yield,\nincendiary\nanti-virus bomb.{clear 0}It's explosive power\nwill completely\nincinerate any virus.</Text>
+    <Text>It converts grenade\nrounds into acid \nrounds.</Text>
+    <Text>Special herbs that\ngrow in the Raccoon\nCity region.</Text>
+    <Text>Special herbs that\ngrow in the Raccoon\nCity region.</Text>
+    <Text>Special herbs that\ngrow in the Raccoon\nCity region.</Text>
+    <Text>A mixture of 2 green\nherbs.</Text>
+    <Text>A mixture of 1 green\nherb and 1 red herb.</Text>
+    <Text>A mixture of 1 green\nherb and 1 blue\nherb.</Text>
+    <Text>A mixture of 3 green\nherbs.</Text>
+    <Text>A mixture of 2 green\nherbs and 1 blue\nherb.</Text>
+    <Text>A mixture of 1 green\nherb, 1 blue herb\nand 1 red herb.</Text>
+    <Text>An oil lighter.\n</Text>
+    <Text>A lockpick. I can\nunlock the simple\nlocks with this.\n</Text>
+    <Text>A picture taken\nfairly recently.</Text>
+    <Text>I can open/close the\nvalves with this.</Text>
+    <Text>A blood-red jewel\nabout the size of\na fist.\n</Text>
+    <Text>A plastic card.\nIt reads:\nWeapon Storage.\n</Text>
+    <Text>A plastic card.\nIt reads: Hall \nelectronic lock.\n</Text>
+    <Text>A six inch stone\nwith a snake etched\non the side.\n</Text>
+    <Text>A six inch stone\nwith a jaguar\netched.\n</Text>
+    <Text>Half of an animal\nis etched on the\nstone fragment.</Text>
+    <Text>Half of an animal\nis etched on the\nstone fragment.</Text>
+    <Text>A six inch stone\nwith an eagle\netched.\n</Text>
+    <Text>A plug of some sort\nin the shape of\na bishop.</Text>
+    <Text>A plug of some sort\nin the shape of\na rook.</Text>
+    <Text>A plug of some sort\nin the shape of\na knight.</Text>
+    <Text>A plug of some sort\nin the shape of\na king.</Text>
+    <Text>An odd-shaped key.\nUmbrella's logo is\non the key ring...</Text>
+    <Text>It's a charge\ndetonator. It's\nuseless by itself.\n</Text>
+    <Text>Enough C4 to clear\nthe wall, but it\nneeds a detonator.\n</Text>
+    <Text>I can clear the\nwreckage away\nwith this.\n</Text>
+    <Text>The end is\nsquare-shaped.</Text>
+    <Text>I can't tell what's\non the film until\nI develop it.</Text>
+    <Text>I can't tell what's\non the film until\nI develop it.</Text>
+    <Text>I can't tell what's\non the film until\nI develop it.</Text>
+    <Text>Something is\nengraved on\nthe back.{clear 0}«Please guide me to\nthe beautiful maiden\nwho turned into{clear 0}stone as she\nwaited for me.»</Text>
+    <Text>An eagle is etched.</Text>
+    <Text>A wolf is etched.</Text>
+    <Text>It's gold-plated. It\nlooks like a large\nclock cog.</Text>
+    <Text>A tool to open the\nmanhole lid.</Text>
+    <Text>I can restore the\npower to the lab\nwith this.</Text>
+    <Text>A case for\nindustrial fuses.{clear 0}It's been designed\nfor superconductor\nfuses.</Text>
+    <Text>I can save Sherry\nwith this.</Text>
+    <Text>Used to create the\nvaccine. I need the\nbase vaccine first.</Text>
+    <Text>I can't tell what's\non the film until\nI develop it.</Text>
+    <Text>Vaccine cartridge\nprocessed with\nthe activator.</Text>
+    <Text>A purple object in a\ngel-like state.</Text>
+    <Text>There must be an\nunopened locker\nsomewhere.</Text>
+    <Text>High power plug.\nUsed to activate\nlarge generators.</Text>
+    <Text>High power plug.\nUsed to activate\nlarge generators.</Text>
+    <Text>A cord to connect\nwires on small\nelectric devices.</Text>
+    <Text>A picture taken\nfairly recently.\n</Text>
+    <Text>I can access the\ncabin in the rear\nwith this.</Text>
+    <Text>It's in the shape of\na spade.</Text>
+    <Text>It's in the shape of\na diamond.</Text>
+    <Text>It's in the shape of\na heart.</Text>
+    <Text>It's in the shape of\na club.</Text>
+    <Text>A key to activate \nthe control panel .{clear 0}The letter «D» is\nengraved.</Text>
+    <Text>A key to activate \nthe control panel .{clear 0}The letter «U» is\nengraved.</Text>
+    <Text>It looks unique.\nNow I can access\nthe power room.</Text>
+    <Text>The label says\n«For Cargo Room\nVerification».</Text>
+    <Text>It looks like a\ncard key for lab\naccess.</Text>
+    <Text>It looks very\nimportant.</Text>
+    <Text>I have to hurry and\nget that train\noperational!</Text>
+</Strings>

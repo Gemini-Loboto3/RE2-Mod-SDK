@@ -1,14 +1,20 @@
 // modtest.cpp : Defines the exported functions for the DLL application.
 //
 #include "stdafx.h"
+#include "re2.h"
 
 typedef struct tagDmtblEm10
 {
 	u32 reaction[9];
 } DMTBL_EM10;
 
+void Install_quickturn(u8 *pExe);
+
 void ModMain(unsigned char *pExe)
 {
+	Init_RE2(pExe);
+	Install_quickturn(pExe);
+
 	static unsigned short zhealth[] =	// 0x526C00
 	{ 9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999 },
 	zhealth_easy[] =			// 0x526C20
