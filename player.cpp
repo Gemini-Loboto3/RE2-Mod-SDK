@@ -79,6 +79,8 @@ void pl_mv_quickturn(PLAYER_WORK *pEm, u32 *pKan, u32 *pSeq)
 	case 0:
 		pEm->Routine_2 = 1;
 		pEm->Timer0 = 0;
+		// set base walk animation
+		*(u32*)&pEm->Move_no = 0x070000;
 	case 1:
 		if (pEm->Timer0++ < 8)
 			pEm->Cdir_y += 2048 / 8;
