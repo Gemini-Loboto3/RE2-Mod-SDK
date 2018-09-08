@@ -8,6 +8,9 @@ typedef struct tagDmtblEm10
 	u32 reaction[9];
 } DMTBL_EM10;
 
+#define REALISTIC	0
+#define MORTAL		1
+
 void Install_quickturn(u8 *pExe);
 
 void ModMain(unsigned char *pExe)
@@ -15,6 +18,13 @@ void ModMain(unsigned char *pExe)
 	Init_RE2(pExe);
 	Install_quickturn(pExe);
 
+#if MORTAL
+	// fix to the revolver
+	memset(&pExe[0x4D5DCB - 0x400000], 0x90, 5);	// drop flying clip
+	pExe[0x4D56D0 - EXE_DIFF] = 0xff;
+#endif
+
+#if REALISTIC
 	static unsigned short zhealth[] =	// 0x526C00
 	{ 9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999,9999 },
 	zhealth_easy[] =			// 0x526C20
@@ -47,6 +57,7 @@ void ModMain(unsigned char *pExe)
 	tbl[16].reaction[4] = hgr;
 	tbl[16].reaction[6] = hgr;
 	tbl[16].reaction[7] = hgr;
+#endif
 
 	//MessageBoxA(NULL, "Pacchi appraiyeddo.\nNau zombi-chan very hardo!", "Super Mega Hard mode", MB_OK);
 }
