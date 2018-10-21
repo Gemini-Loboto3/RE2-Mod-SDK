@@ -1,0 +1,101 @@
+<Strings>
+	<!-- ascii strings -->
+	<!-- scenarios -->
+	<Text>Leon A</Text>
+	<Text>Claire A</Text>
+	<Text>Leon B</Text>
+	<Text>Claire B</Text>
+	<Text>Hunk</Text>
+	<Text>Tofu</Text>
+	<Text>Leon</Text>
+	<Text>Claire</Text>
+	<Text>Ada</Text>
+	<Text>Chris</Text>
+	<!-- places -->
+	<Text>Waiting Room</Text>
+	<Text>Hall</Text>
+	<Text>Dark Room</Text>
+	<Text>Storeroom L</Text>
+	<Text>Storeroom R</Text>
+	<Text>Control Room 1</Text>
+	<Text>Control Room 2</Text>
+	<Text>Water Pool</Text>
+	<Text>Factory</Text>
+	<Text>Pump Room</Text>
+	<Text>Security Room</Text>
+	<Text>Monitor Room</Text>
+	<Text>Gun Shop</Text>
+	<Text>Cabin</Text>
+	<Text>Train</Text>
+	<Text>Scenario A</Text>
+	<Text>Scenario B</Text>
+	<!-- special messages -->
+	<Text>This data is Claire's save data.</Text>
+	<Text>This data is Leon's save data.</Text>
+	<Text>Save failed.</Text>
+	<Text>Load failed.</Text>
+	<!-- game strings -->
+	<Text>Do not save</Text>
+ 	<Text>Do not load</Text>
+ 	<Text>Memory card 1</Text>
+ 	<Text>Memory card 2</Text>
+ 	<Text>Do not</Text>
+ 	<Text>Save on memory card 1 or 2</Text>
+ 	<Text>Load from memory card 1 or 2</Text>
+ 	<Text>Checking memory card/s</Text>
+ 	<Text>Overwrite?</Text>
+ 	<Text>Yes</Text>
+ 	<Text>No</Text>
+ 	<Text>Formatting is required</Text>
+ 	<Text>Format memory card</Text>
+ 	<Text>Don't format memory card</Text>
+ 	<Text>Use memory card</Text>
+ 	<Text>Don't use memory card</Text>
+ 	<Text>Now loading...</Text>
+ 	<Text>No Data</Text>
+ 	<Text>Are you sure to exit</Text>
+ 	<Text>without saving?</Text>
+ 	<Text>Failed to format memory card</Text>
+ 	<Text>Access error</Text>
+ 	<Text>No empty block</Text>
+ 	<Text>There are no files</Text>
+ 	<Text>Memory card is not inserted</Text>
+ 	<Text>Fail in save</Text>
+ 	<Text>Fail in save</Text>
+ 	<Text>This data is Claire's data</Text>
+	<Text>This data is Leon's data</Text>
+	<Text>Formatting is required</Text>
+	<Text>Formatting is required</Text>
+	<Text>Leon A</Text>
+	<Text>Claire A</Text>
+	<Text>Leon B</Text>
+	<Text>Claire B</Text>
+	<Text>Hunk</Text>
+	<Text>Tofu</Text>
+	<Text>Leon</Text>
+	<Text>Claire</Text>
+	<Text>Ada</Text>
+	<Text>Chris</Text>
+	<Text>???</Text>
+ 	<Text>/00/Waiting Room</Text>
+	<Text>Hall</Text>
+	<Text>Dark Room</Text>
+	<Text>Storeroom L</Text>
+	<Text>Storeroom R</Text>
+	<Text>Control Room1</Text>
+	<Text>Control Room2</Text>
+	<Text>Water Pool</Text>
+	<Text>Factory</Text>
+	<Text>Pump Room</Text>
+	<Text>Security Room</Text>
+	<Text>Monitor Room</Text>
+	<Text>Gun Shop</Text>
+	<Text>Cabin</Text>
+	<Text>Train</Text>
+	<Text>Scenario A</Text>
+	<Text>Scenario B</Text>
+	<Text>4th Survivor</Text>
+	<Text>Please wait a minute.</Text>
+	<Text>The side pack is being</Text>
+	<Text>equipped.</Text>
+</Strings>
