@@ -2,6 +2,9 @@
 //
 #include "stdafx.h"
 #include "re2.h"
+#include "inject.h"
+
+unsigned char *pExe;
 
 typedef struct tagDmtblEm10
 {
@@ -13,8 +16,64 @@ typedef struct tagDmtblEm10
 
 void Install_quickturn(u8 *pExe);
 
+FARPROC hook_init_stage;
+
+static void _stage_init()
+{
+	pG->Player.nFloor = 0;
+	pG->Player.Pos_y = 0;
+	pG->Cut_no = 0;
+	pG->Stage_no = 0;
+#if 1
+	pG->Room_no = 0x0E;
+	pG->Player.Pos_x = -23240;
+	pG->Player.Pos_z = 20939;
+#else
+	pG->Room_no = 4;
+	pG->Player.Pos_x = -17920;
+	pG->Player.Pos_z = -21722;
+#endif
+	pG->Player.Cdir_y = 0;
+	pG->Player.Id = 0;
+	pG->Pl_life = 200;
+	pG->Player.Life = 200;
+
+	pExe[0x98EE7B - EXE_DIFF] = 0;
+	*(DWORD*)&pExe[0x98EE7C - EXE_DIFF] = 200;
+}
+
+NAKED void Stage_init()
+{
+	__asm { call _stage_init }
+	__asm { jmp [hook_init_stage] }
+}
+
+typedef struct tagItemWork2
+{
+	u8 Id,
+		Num,
+		Size;
+} ITEM_WORK2;
+
+static const ITEM_WORK2 hunk_init_item[]=
+{
+	{15,5,1},	// machinegun p1
+	{15,5,2},	// machinegun p2
+	{2,4,0},	// handgun
+	{0},
+	{0},
+	{0},
+	{0},
+	{0},
+	{0},
+	{0},
+	{1,0xff,0}	// knife
+};
+
 void ModMain(unsigned char *pExe)
 {
+	::pExe = pExe;
+
 	Init_RE2(pExe);
 	Install_quickturn(pExe);
 
@@ -22,6 +81,12 @@ void ModMain(unsigned char *pExe)
 	// fix to the revolver
 	memset(&pExe[0x4D5DCB - 0x400000], 0x90, 5);	// drop flying clip
 	pExe[0x4D56D0 - EXE_DIFF] = 0xff;
+
+	// fix start position to be in irons' gallery
+	hook_init_stage = (FARPROC)&pExe[0x5069E0 - EXE_DIFF];
+	INJECT(&pExe[0x50693E - EXE_DIFF], Stage_init);
+
+	memcpy(&pExe[0x5401B8 - EXE_DIFF], hunk_init_item, sizeof(hunk_init_item));
 #endif
 
 #if REALISTIC

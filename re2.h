@@ -316,7 +316,10 @@ struct PLAYER_WORK
 	int Poly_rgb;
 	MATRIX *pSuper;
 	int Atd[32];
-	int field_104;
+	u8 Tpage,
+		Clut,
+		nFloor,
+		Parts_num;
 	int pKan_t_ptr;
 	__int16 Water;
 	__int16 Type;

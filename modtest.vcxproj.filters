@@ -24,6 +24,9 @@
     <ClInclude Include="re2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="inject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="modtest.cpp">
