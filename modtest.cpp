@@ -12,7 +12,8 @@ typedef struct tagDmtblEm10
 } DMTBL_EM10;
 
 #define REALISTIC	0
-#define MORTAL		1
+#define MORTAL		0
+#define DESTINY		1
 
 void Install_quickturn(u8 *pExe);
 
@@ -55,6 +56,25 @@ typedef struct tagItemWork2
 		Size;
 } ITEM_WORK2;
 
+#if DESTINY
+static const ITEM_WORK2 vander_init_item[] =
+{
+	{ 0 },
+	{ 52, 1, 0 },	// blue keycard
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 0 },
+	{ 53, 1, 0 },	// red keycard
+	{ 53, 1, 0 }	// knife
+};
+#endif
+
+#if MORTAL
 static const ITEM_WORK2 hunk_init_item[]=
 {
 	{15,5,1},	// machinegun p1
@@ -69,13 +89,13 @@ static const ITEM_WORK2 hunk_init_item[]=
 	{0},
 	{1,0xff,0}	// knife
 };
+#endif
 
 void ModMain(unsigned char *pExe)
 {
 	::pExe = pExe;
 
 	Init_RE2(pExe);
-	Install_quickturn(pExe);
 
 #if MORTAL
 	// fix to the revolver
@@ -87,6 +107,12 @@ void ModMain(unsigned char *pExe)
 	INJECT(&pExe[0x50693E - EXE_DIFF], Stage_init);
 
 	memcpy(&pExe[0x5401B8 - EXE_DIFF], hunk_init_item, sizeof(hunk_init_item));
+#endif
+
+#if DESTINY
+	memcpy(&pExe[0x5401B8 - EXE_DIFF], vander_init_item, sizeof(vander_init_item));
+
+	memset(&pExe[0x506795 - EXE_DIFF], 0x90, 5);	// skip prologue
 #endif
 
 #if REALISTIC

@@ -1,0 +1,16 @@
+<Bgm>
+	<Entry room="0x101"/>
+	<Entry room="0x104"/>
+	<Entry room="0x10a"/>
+	<Entry room="0x114"/>
+	<Entry room="0x20c"/>
+	<Entry room="0x20e"/>
+	<Entry room="0x211"/>
+	<Entry room="0x300"/>
+	<Entry room="0x303"/>
+	<Entry room="0x400"/>
+	<Entry room="0x404"/>
+	<Entry room="0x407"/>
+	<Entry room="0x40A"/>
+	<Entry room="0x505"/>
+</Bgm>
