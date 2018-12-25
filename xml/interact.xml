@@ -1,13 +1,13 @@
 ﻿<Strings>
-    <Text>\nIt's a Computer.{clear 0}If I had a {color 1}USB Drive{color 0}, I\ncould save my progress...</Text>
-    <Text>\nIt's a Computer.{clear 0}You can save your progress\nwith this.{clear 0}Will you use the\n{color 1}USB Drive{color 0}?{branch 0}</Text>
+    <Text>\nIt's an old typewriter.{clear 0}If I had an {color 1}Ink Ribbon{color 0}, I\ncould save my progress...</Text>
+    <Text>\nIt's an old typewriter.{clear 0}You can save your progress\nwith this.{clear 0}Will you use the\n{color 1}Ink Ribbon{color 0}?{branch 0}</Text>
     <Text>\nThe desk is locked.</Text>
     <Text>\nThe desk is locked.{clear 0}Will you use the {color 1}{string 0}{color 0}?\n{branch 0}</Text>
     <Text>\nThere's nothing more.</Text>
     <Text>You have used the\n{color 1}{string 0}{color 0}.</Text>
     <Text>Doors can be unlocked\nby a card key.</Text>
     <Text>Will you use the\n{color 1}{string 0}{color 0}?{branch 0}</Text>
-    <Text>\nI can't leave Beverly alone.</Text>
+    <Text>\nI can't leave Sherry alone.</Text>
     <Text>This key is useless now.\nDiscard?{branch 0}</Text>
     <Text>\nYou unlocked it.</Text>
     <Text>\nIt's locked from inside.</Text>
