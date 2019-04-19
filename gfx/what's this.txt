@@ -1,0 +1,2 @@
+- font0.png & font0.bin
+These two go into the common\data folder. The png is just a texture, while the bin is used to store color information. It's RGB data, one byte per RGB channel, with R, G, and B in order.

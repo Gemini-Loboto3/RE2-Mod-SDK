@@ -12,8 +12,9 @@ typedef struct tagDmtblEm10
 } DMTBL_EM10;
 
 #define REALISTIC	0
-#define MORTAL		0
-#define DESTINY		1
+#define MORTAL		1
+#define DESTINY		0
+#define TRANSLATION	0
 
 void Install_quickturn(u8 *pExe);
 
@@ -87,6 +88,7 @@ static const ITEM_WORK2 hunk_init_item[]=
 	{0},
 	{0},
 	{0},
+	{1,0xff,0},	// knife
 	{1,0xff,0}	// knife
 };
 #endif
@@ -107,12 +109,17 @@ void ModMain(unsigned char *pExe)
 	INJECT(&pExe[0x50693E - EXE_DIFF], Stage_init);
 
 	memcpy(&pExe[0x5401B8 - EXE_DIFF], hunk_init_item, sizeof(hunk_init_item));
+	// fix backup lighter for hunk to be a knife
+	pExe[0x502248 - EXE_DIFF] = 1;
+
+	*(DWORD*)&pExe[0x4F9F64 - EXE_DIFF] = 0;	// make Status background black
+	*(DWORD*)&pExe[0x501C09 - EXE_DIFF] = 0;	// make Status background black
 #endif
 
 #if DESTINY
 	memcpy(&pExe[0x5401B8 - EXE_DIFF], vander_init_item, sizeof(vander_init_item));
 
-	memset(&pExe[0x506795 - EXE_DIFF], 0x90, 5);	// skip prologue
+	//memset(&pExe[0x506795 - EXE_DIFF], 0x90, 5);	// skip prologue
 #endif
 
 #if REALISTIC
